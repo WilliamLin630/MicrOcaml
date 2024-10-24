@@ -8,6 +8,28 @@ MicroCaml allows for flexible scripting with dynamic typing, making it ideal for
 
 ---
 
+## mutop Usage
+
+The `mutop` is an interactive shell for MicroCaml, similar to OCaml's `utop`. You can use it to evaluate expressions, define variables, and execute commands interactively.
+
+### Example Session:
+
+```ocaml
+$ dune exec bin/mutop.exe
+
+mutop # def a = 3;;
+val a = Int 3
+
+mutop # def b = 5;;
+val b = Int 5
+
+mutop # a * b;;
+- : val: Int 15
+
+mutop # let rec fact = fun x -> if x = 0 then 1 else x * fact (x - 1) in fact 5;;
+- : val: Int 120
+```
+
 ## Types
 
 MicroCaml is dynamically typed, meaning that variable types are not declared and type checking is deferred until runtime. The following types are supported:

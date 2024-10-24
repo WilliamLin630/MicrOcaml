@@ -1,0 +1,23 @@
+# dune exec bin/mutop.exe
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/williamlin/.cache/dune/db
+# Workspace root: /Users/williamlin/cmsc330spring24/Proj-iv-WilliamLin630
+# Auto-detected concurrency: 10
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/williamlin/cmsc330spring24/Proj-iv-WilliamLin630/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /Users/williamlin/.opam/4.14.0/bin/ocamlc.opt -config > /var/folders/18/nkmj3tqs7pz23j5686j11jzr0000gn/T/dune_b8ec34_output
