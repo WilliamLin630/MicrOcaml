@@ -1,5 +1,4 @@
-# MicrOcaml
-# MicroCaml Language Documentation
+# MicrOcaml Language Documentation
 
 ## Overview
 
@@ -122,7 +121,7 @@ MicroCaml supports a wide variety of expressions, which can be evaluated in any 
 
 ## Functions
 
-MicroCaml treats functions as first-class citizens. Functions can be passed as arguments, returned from other functions, or stored in data structures.
+Functions can be passed as arguments, returned from other functions, or stored in data structures.
 
 ### 1. **Anonymous Functions**
   - Functions are defined using the `fun` keyword followed by the parameter and body.
